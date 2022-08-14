@@ -1,0 +1,31 @@
+:root{
+    --color-text: #83869A;
+    --color-primary: #13183F;
+    --color-secondary: #666CA3;
+    --color-accent: ;
+    --color-button-1-idle: #13183F;
+    --color-button-1-hover: #666CA3;
+    --color-button-2-idle: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    --color-button-2-hover: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    --color-button-3-idle: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    --color-button-3-hover: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    
+
+}
+
+
+
+/***** Border box *****/
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', 'Helvetica',sans-serif;
+    color: var(--color-text);
+}
+
+
