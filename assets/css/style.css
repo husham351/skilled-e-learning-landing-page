@@ -237,6 +237,14 @@ html{
         height: 95px;
     }
 
+    .desktop-image {
+        height: 95vh;
+        top: 10px;
+        background-image: url(/assets/images/image-hero-desktop.png);
+        background-position: 417px -25px;
+        background-size: auto 80%;
+    }
+    
     .hero-paragraph{
         font-size: 16px;
         font-weight: 500;
