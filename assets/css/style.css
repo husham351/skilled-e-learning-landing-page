@@ -190,8 +190,12 @@ html{
 }
 
 /* mobile and (device-height: 480px)*/
-@media (max-width: 390px)
+@media (min-width: 350px) and (max-width: 767px)
   {
+    .desktop-image{
+        display: none;
+    }
+    
     .mobile-image{
         position: absolute;
         top: 20%;
@@ -221,7 +225,7 @@ html{
 
     .hero{
         margin-top: 70.5px;
-        margin-bottom: 270px;
+        margin-bottom: 300px;
         padding-left: 10px;
     }
 
