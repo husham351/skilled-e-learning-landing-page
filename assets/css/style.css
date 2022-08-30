@@ -399,7 +399,7 @@ html{
 }
 
 /* desktop 1440px*/
-@media (min-width: 1440px) {
+@media (min-width: 990px) {
     .desktop-image {
         height: 95vh;
         top: 10px;
