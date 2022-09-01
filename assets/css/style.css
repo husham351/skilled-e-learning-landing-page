@@ -155,6 +155,16 @@ html{
     text-decoration: none;
 }
 
+.course-card-link:hover{
+    display: inline-block;
+    margin-top: 24px;
+    margin-bottom:  32px;
+    color: #FFA7C3;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+
 /* footer section */
 .footer{
     display: flex;
@@ -202,7 +212,7 @@ html{
         right: 0;
         width: 100%;
         height: 700px;
-        background-image: url(/assets/images/image-hero-mobile.png);
+        background-image: url(..//images/image-hero-mobile.png);
         background-repeat: no-repeat;
         background-position: bottom left;
         margin-top: -105px;
@@ -296,7 +306,7 @@ html{
         right: 0;
         width: 50%;
         height: 700px;
-        background-image: url(/assets/images/image-hero-tablet.png);
+        background-image: url(..//images/image-hero-tablet.png);
         background-repeat: no-repeat;
         background-position: bottom left;
         margin-top: -105px;
@@ -312,8 +322,8 @@ html{
     }
 
     .hero-heading {
-        font-size: 45px;
-        line-height: 70.56px;
+        font-size: 40px;
+        line-height: 65px;
         font-weight: 800;
         width: 457px;
         height: 95px;
@@ -346,12 +356,12 @@ html{
     }
 
     .hero-paragraph{
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 500;
-        margin-top: 70px;
+        margin-top: 45px;
         margin-bottom: 21px;
-        width: 26%;
-        line-height: 25px;
+        width: 56%;
+        line-height: 27px;
     }
 
     .course-card-detail {
@@ -374,7 +384,7 @@ html{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, 30%);
-        gap: 40px 13px;
+        gap: 40px 30px;
         margin: auto;
     }
     
@@ -399,7 +409,7 @@ html{
     .desktop-image {
         height: 95vh;
         top: 10px;
-        background-image: url(/assets/images/image-hero-desktop.png);
+        background-image: url(..//images/image-hero-desktop.png);
         background-position: 417px -25px;
         background-size: auto 80%;
     }
@@ -473,7 +483,7 @@ html{
       
     }
     .footer-content {
-      width: 100%;
+      width: 80%;
       margin: auto;
     }
 
