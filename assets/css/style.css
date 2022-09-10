@@ -442,6 +442,18 @@ html{
     }
 }
 
+@media (min-width: 912px){
+    .desktop-image {
+    position: absolute;
+    top: -6%;
+    left: 58%;
+    width: 50%;
+    height: 700px;
+    background-image: url(..//images/image-hero-tablet.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    }
+}
 
 /* desktop 1440px and (max-width: 1280px) */
 @media (min-width: 992px){
@@ -452,7 +464,7 @@ html{
         height: 102vh;
         top: -14px;
         background-image: url(..//images/image-hero-desktop.png);
-        background-position: 115px -91px;
+        background-position: 260px -91px;
         background-size: auto 80%;
         margin: auto;
         right: 0;
@@ -560,7 +572,7 @@ html{
         height: 80vh;
         top: -14px;
         background-image: url(..//images/image-hero-desktop.png);
-        background-position: 381px -91px;
+        background-position: 260px -91px;
         background-size: auto 80%;
         margin: auto;
         right: 0;
@@ -581,6 +593,7 @@ html{
     margin: auto;
     left: 28%;
     width: 64%
+    }
 }
 
 @media (min-width: 1280px) and (max-width: 1399px){
@@ -629,5 +642,23 @@ html{
         margin: auto;
         left: 50%;
         width: 55%;
+    }
+
+
+}
+
+@media (min-width: 1950px){
+    .image-wrapper{
+        margin: auto;
+    }
+    .desktop-image {
+        height: 102vh;
+        top: -14px;
+        background-image: url(..//images/image-hero-desktop.png);
+        background-position: 258px -106px;
+        background-size: auto 80%;
+        margin: auto;
+        right: 0;
+        width: 50%;
     }
 }
