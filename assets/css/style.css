@@ -117,7 +117,7 @@ html{
 }
 
 .intro-card > h1{
-    padding: 24px 29px 32px 28px;
+    /* padding: 24px 29px 32px 28px; */
     line-height: 1.10em;
   
   }
@@ -135,7 +135,7 @@ html{
     color:var(--color-primary);
     font-weight: 800;
     font-size: 20px;
-    margin: 0 214px 16px 0;   
+    margin: 0 16px 16px 0;   
 }
 
 .course-card-detail{
@@ -208,15 +208,16 @@ html{
     
     .mobile-image{
         position: absolute;
-        top: 20%;
-        right: 0;
+        top: 10%;
+        right: 26px;
         width: 100%;
-        height: 700px;
+        height: 715px;
         background-image: url(..//images/image-hero-mobile.png);
         background-repeat: no-repeat;
         background-position: bottom left;
-        margin-top: -105px;
         margin-right: 0;
+        margin-left: 0;
+        margin: auto;
     }
     .header {
         margin-bottom: 16px;
@@ -228,7 +229,7 @@ html{
     }
 
     .main-wrapper{
-        width: 100%;
+        width: 98%;
         margin: auto;
         margin-bottom: 86px;
     }
@@ -237,15 +238,17 @@ html{
         margin-top: 70.5px;
         margin-bottom: 300px;
         padding-left: 10px;
+        padding-right: 10px;
     }
 
     .hero-content {
         padding-left: 16px;
+        padding-bottom: 40px;
     }
 
     .hero-heading {
-        font-size: 40px;
-        line-height: 70.56px;
+        font-size: 38px;
+        line-height: 57.56px;
         font-weight: 800;
         width: 100%;
         height: 95px;
@@ -298,19 +301,38 @@ html{
     }
 }
 
+
+@media (min-width: 540px) and (max-width: 767px){
+    .desktop-image{
+        display: none;
+    }
+    
+    .mobile-image{
+        position: absolute;
+        top: 10%;
+        right: -40px;
+        width: 100%;
+        height: 700px;
+        background-image: url(..//images/image-hero-mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        margin-right: 0;
+        margin-left: 0;
+        margin: auto;
+    }
+  }
+
 /* tablet 768px*/
 @media (min-width: 768px) {
     .desktop-image{
         position: absolute;
-        top: 5%;
+        top: -7%;
         right: 0;
         width: 50%;
         height: 700px;
         background-image: url(..//images/image-hero-tablet.png);
         background-repeat: no-repeat;
         background-position: bottom left;
-        margin-top: -105px;
-        margin-right: 0;
     }
     .header {
         margin-bottom: 16px;
@@ -332,7 +354,7 @@ html{
     .hero-content {
         margin-top: 185.57px;
         margin-bottom: 226px;
-        padding-left: 10px;
+        padding-left: 18px;
     }
     .main-wrapper{
         width: 100%;
@@ -360,7 +382,7 @@ html{
         font-weight: 500;
         margin-top: 45px;
         margin-bottom: 21px;
-        width: 56%;
+        width: 55%;
         line-height: 27px;
     }
 
@@ -404,14 +426,37 @@ html{
     }
 }
 
-/* desktop 1440px*/
-@media (min-width: 990px) {
+
+/* tab screen 820 */
+
+@media (min-width: 768px){
     .desktop-image {
-        height: 95vh;
-        top: 10px;
+    position: absolute;
+    top: -6%;
+    left: 52%;
+    width: 50%;
+    height: 700px;
+    background-image: url(..//images/image-hero-tablet.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    }
+}
+
+
+/* desktop 1440px and (max-width: 1280px) */
+@media (min-width: 992px){
+    .image-wrapper{
+        margin: auto;
+    }
+    .desktop-image {
+        height: 102vh;
+        top: -14px;
         background-image: url(..//images/image-hero-desktop.png);
-        background-position: 417px -25px;
+        background-position: 115px -91px;
         background-size: auto 80%;
+        margin: auto;
+        right: 0;
+        width: 50%;
     }
     .paragraph{
         font-size: 18px;
@@ -421,15 +466,13 @@ html{
         margin-bottom: 18px;
     }
     .hero-heading {
-      font-size: 56px;
+      font-size: 45px;
       line-height: 70.56px;
       font-weight: 800;
-      width: 457px;
-      height: 95px;
     }
     
     .hero-content {
-      margin-top: 185.57px;
+      margin-top: 110px;
       margin-bottom: 226px;
     }
 
@@ -438,12 +481,12 @@ html{
         font-weight: 500;
         margin-top: 70px;
         margin-bottom: 21px;
-        width: 26%;
+        width: 38%;
         line-height: 25px;
     }
 
     .main-wrapper {
-      width: 80%;
+      width: 75%;
       margin: auto;
     }
 
@@ -452,17 +495,24 @@ html{
         display: grid;
         grid-template-columns:  1fr 1fr 1fr;
         grid-template-rows: repeat(2, 44%);
-        gap: 56px 0px;
+        gap: 60px 25px;
         margin-right: 40px;
         margin-bottom: 140px;
-        margin-top: 250px;
+        margin-top: 110px;
+    }
+
+    .header {
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
     }
 
     .header > img{
-        margin-left: 180px;
+        margin-left: 16px;
     }
     .header-btn {
-        margin-right: 165px;
+        margin-right: 16px;
     }
     .course-icon >h2{
         margin-top: 10px;
@@ -472,18 +522,27 @@ html{
     .paragraph {
         font-size: 18px;
     }
+
+    .intro-card > h1{
+        /* padding: 24px 29px 32px 28px; */
+        line-height: 1.10em;
+      
+      }
     .intro-card {
-      font-size: 32px;
+      font-size: 19px;
       line-height: 40px;
       font-weight: 800;
+      width: 100%;
+      height: 100%;
+      padding: 56px 0 139px 17px;
     }
     .intro-card,
     .course-card {
-      width: 90%;
+      width: 100%;
       
     }
     .footer-content {
-      width: 80%;
+      width: 75%;
       margin: auto;
     }
 
@@ -491,3 +550,84 @@ html{
         width: 100%;
       }
 }    
+
+
+@media (min-width: 992px) and (max-width: 1023px){
+    .image-wrapper{
+        margin: auto;
+    }
+    .desktop-image {
+        height: 80vh;
+        top: -14px;
+        background-image: url(..//images/image-hero-desktop.png);
+        background-position: 381px -91px;
+        background-size: auto 80%;
+        margin: auto;
+        right: 0;
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .image-wrapper{
+        margin: auto;
+    }
+    .desktop-image {
+        height: 134vh;
+    top: 12px;
+    background-image: url(..//images/image-hero-desktop.png);
+    background-position: 140px -69px;
+    background-size: auto 81%;
+    margin: auto;
+    left: 28%;
+    width: 64%
+}
+
+@media (min-width: 1280px) and (max-width: 1399px){
+    .image-wrapper{
+        margin: auto;
+    }
+    .desktop-image {
+        height: 110vh;
+        top: 14px;
+        background-image: url(..//images/image-hero-desktop.png);
+        background-position: 207px -87px;
+        background-size: auto 80%;
+        margin: auto;
+        left: 35%;
+        width: 59%
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1444px){
+    .image-wrapper{
+        margin: auto;
+    }
+    .desktop-image {       
+
+        height: 80vh;
+        top: -14px;
+        background-image: url(..//images/image-hero-desktop.png);
+        background-position: 250px -91px;
+        background-size: auto 80%;
+        margin: auto;
+        left: 50%;
+        width: 55%
+    }
+}
+
+@media (min-width: 1445px) and (max-width: 2000px){
+    .image-wrapper{
+        margin: auto;
+    }
+    .desktop-image {       
+        height: 90vh;
+        top: -14px;
+        background-image: url(..//images/image-hero-desktop.png);
+        background-position: 317px -132px;
+        background-size: auto 76%;
+        margin: auto;
+        left: 50%;
+        width: 55%;
+    }
+}
